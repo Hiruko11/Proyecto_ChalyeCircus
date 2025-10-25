@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: a5372b59df1294241b56e8645fc97887
+guid: 75ed125d2a1094c48a97044cef92435e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3584947732462321967
-    second: NES - Circus Charlie (JPN) - Playable Characters - Charlie & Performance
-      Animals_0
+      213: 6933618681683363378
+    second: escenario_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -98,33 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -140,24 +113,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NES - Circus Charlie (JPN) - Playable Characters - Charlie & Performance
-        Animals_0
+      name: escenario_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 142
-        height: 101
+        x: 609
+        y: 1280
+        width: 54
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2142c308fa40c130800000000000000
-      internalID: 3584947732462321967
+      spriteID: 77d53ed716cbde049bee7f2cebd030d1
+      internalID: -1382339679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario_1
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1280
+        width: 96
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73aace0f6a704542bda9c3a5538faa4
+      internalID: -1743110834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1280
+        width: 41
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31345f23f7ceb27478a017983e9a9317
+      internalID: -1818226368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: escenario_3
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1355
+        width: 255
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3691d338ac750484cba22a0dcf6c56d3
+      internalID: 181149357
       vertices: []
       indices: 
       edges: []
@@ -166,7 +204,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 41dc49da6fae5d646b0eb78729ddc54e
     internalID: 0
     vertices: []
     indices: 
@@ -176,7 +214,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      NES - Circus Charlie (JPN) - Playable Characters - Charlie & Performance Animals_0: 3584947732462321967
+      escenario_0: -1382339679
+      escenario_1: -1743110834
+      escenario_2: -1818226368
+      escenario_3: 181149357
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
