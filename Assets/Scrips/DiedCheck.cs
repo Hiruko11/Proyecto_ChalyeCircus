@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DiedCheck : MonoBehaviour
 {
@@ -8,19 +9,12 @@ public class DiedCheck : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
     }
 
-    void OCollisionEnter(Collision collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("DeathZone"))
         {
-            Debug.Log("Has muerto");
-            playerRb.linearVelocity = Vector2.zero;
-            transform.position = new Vector3(-7.5f, 1.5f, 0f);
+           SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
 
