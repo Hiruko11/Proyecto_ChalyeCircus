@@ -14,7 +14,7 @@ public class CameraControl : MonoBehaviour
     void LateUpdate()
     {
         FollowYPosition();
-        if (playerTransform.position.x > 0)
+        if (playerTransform.position.x > 0.5f)
         {
             FollowXPosition();
         }
