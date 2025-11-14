@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - DeathZone
+  - playerLayer
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - Water
   - UI
   - DeathZone
-  - 
-  - 
+  - playerLayer
+  - groundLayer
   - 
   - 
   - 
