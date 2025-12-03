@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     // (por ejemplo parámetros como "walk", "jump", etc.).
     Animator controlanimator;
 
+     public AudioClip JumpSFX;
+
     // Permite ajustar la velocidad en el inspector con un rango visual de 0 a 5.
     [Range(0f, 5f)]
     public float Speed; // Velocidad horizontal del jugador.
@@ -57,6 +59,12 @@ public class PlayerController : MonoBehaviour
         if (playerInput.actions["Jump"].WasPressedThisFrame() && isGrounded)
         {
             Jump();
+       
+
+        }
+             if(playerInput.actions["Pausa"].WasPressedThisFrame())
+        {
+            GameManager.Instance.PausedGame();
         }
     }
 
@@ -113,6 +121,8 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         playerRb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        AudioManager.Instance.PlaySFX(JumpSFX);
+
 
     }
 

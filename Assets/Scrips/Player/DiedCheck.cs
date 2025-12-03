@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class DiedCheck : MonoBehaviour
 {
+     public AudioClip DieSFX;
     Rigidbody2D playerRb;
     void Start()
     {
@@ -14,6 +15,7 @@ public class DiedCheck : MonoBehaviour
         if (collision.gameObject.CompareTag("DeathZone"))
         {
            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+             AudioManager.Instance.PlaySFX(DieSFX);
         }
     }
 
